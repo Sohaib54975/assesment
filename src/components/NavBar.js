@@ -24,7 +24,7 @@ function NavBar() {
 
   return (
     <>
-      {/* <div className="nav_bar">
+      <div className="nav_bar">
         <div className="logo">
           <img src={logo} alt="Galaxy Logo" />
         </div>
@@ -55,8 +55,8 @@ function NavBar() {
         >
           <RxHamburgerMenu size="27" />
         </div>
-      </div> */}
-      <Navbar expand="lg" className="bg-body-tertiary">
+      </div>
+      {/* <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
     
             <Navbar.Brand href="#home">
@@ -86,7 +86,7 @@ function NavBar() {
             </Navbar.Collapse>
       
         </Container>
-      </Navbar>
+      </Navbar> */}
     </>
   );
 }
