@@ -16,7 +16,7 @@ function NavBar() {
       });
     }
   };
-  const [isVisible, setIsVisiblle] = useState(true);
+  const [isVisible, setIsVisiblle] = useState(false);
 
   const toggllevisibility = () => {
     setIsVisiblle(!isVisible);
